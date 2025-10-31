@@ -56,8 +56,8 @@ hiresense/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/s-Gokul-s/hire_sense.git
-cd hire_sense
+git clone https://github.com/s-Gokul-s/Hiresense-AI-Resume-Shortlister.git
+cd Hiresense-AI-Resume-Shortlister
 ```
 
 ### 2️⃣ Backend Setup (FastAPI)
