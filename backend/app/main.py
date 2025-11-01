@@ -67,3 +67,13 @@ app.include_router(insights.router, tags=["Insights"])
 app.include_router(reports.router,tags=["Reports"])
 
 app.include_router(analytics.router, tags=["Analytics & Dashboard"])
+
+
+
+
+# ✅ Entry point for deployment
+if __name__ == "__main__":
+    import os
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))  # use $PORT if available
+    uvicorn.run(app, host="0.0.0.0", port=port)
